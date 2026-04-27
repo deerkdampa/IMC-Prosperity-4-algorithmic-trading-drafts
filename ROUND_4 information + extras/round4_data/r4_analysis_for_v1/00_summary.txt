@@ -1,0 +1,80 @@
+======================================================================
+IMC Prosperity 4 – Round 4 Analysis Summary
+======================================================================
+
+── DELTA-1 ──
+
+  HYDROGEL_PACK
+    Mean price:   9994.65
+    Std price:    34.6233
+    Return ACF1:  -0.1242  ◄ MEAN-REVERT
+    Mean spread:  15.73
+
+  VELVETFRUIT_EXTRACT
+    Mean price:   5247.65
+    Std price:    18.0771
+    Return ACF1:  -0.1603  ◄ MEAN-REVERT
+    Mean spread:  4.98
+
+── VEV IV SUMMARY ──
+  VEV_4000: mean=1.032 std=0.173 range=[0.777,1.522]
+  VEV_4500: mean=0.585 std=0.095 range=[0.457,0.901]
+  VEV_5000: mean=0.277 std=0.024 range=[0.204,0.357]
+  VEV_5100: mean=0.271 std=0.021 range=[0.235,0.330]
+  VEV_5200: mean=0.277 std=0.019 range=[0.245,0.329]
+  VEV_5300: mean=0.282 std=0.019 range=[0.252,0.327]
+  VEV_5400: mean=0.264 std=0.022 range=[0.229,0.313]
+  VEV_5500: mean=0.284 std=0.019 range=[0.248,0.331]
+  VEV_6000: mean=0.496 std=0.075 range=[0.398,0.630]
+  VEV_6500: mean=0.750 std=0.111 range=[0.613,0.931]
+
+── TOP MARKS ──
+  Mark 14          vol=8718
+  Mark 01          vol=7428
+  Mark 55          vol=6551
+  Mark 22          vol=5889
+  Mark 38          vol=5000
+  Mark 67          vol=1510
+  Mark 49          vol=1186
+
+── TOP MARK SIGNALS ──
+  VELVETFRUIT_EXTRACT:
+    Mark 67      buy   avg=+3.7bps t=12.97 n=165
+    Mark 49      sell  avg=+3.5bps t=9.68 n=105
+    Mark 22      sell  avg=+2.9bps t=6.44 n=101
+    Mark 49      buy   avg=-3.5bps t=-2.70 n=17
+    Mark 55      buy   avg=+0.4bps t=2.25 n=598
+    Mark 14      sell  avg=+0.5bps t=2.16 n=331
+  HYDROGEL_PACK:
+    Mark 22      buy   avg=-2.7bps t=-2.90 n=11
+    Mark 22      sell  avg=+3.2bps t=1.77 n=8
+    Mark 14      sell  avg=-0.2bps t=-0.92 n=507
+    Mark 38      buy   avg=-0.1bps t=-0.64 n=515
+    Mark 14      buy   avg=+0.1bps t=0.36 n=496
+    Mark 38      sell  avg=+0.0bps t=0.07 n=507
+
+── FILES ──
+  01_delta1_overview.png
+  02_delta1_ema_deviation.png
+  03_vol_smile.png
+  04_iv_price_deviations.png
+  05_option_autocorr.png
+  06_delta_surface.png
+  07_fair_vs_market.png
+  08_iv_level_trends.png
+  09_mark_volume_heatmap.png
+  10_mark_timing.png
+  11_mark_signals.png
+  12_mark_hydr.png
+  12_mark_velv.png
+  13_spread_summary.png
+  mark_signal_strength.csv
+  mark_volume_summary.csv
+  spread_liquidity_summary.csv
+
+── NEXT STEP ──
+Upload all PNGs + this 00_summary.txt to Claude and say:
+"Round 4 is live. Here are my Round 4 analysis results."
+Ask Claude to confirm strategy + produce final trader.py.
+
+======================================================================
