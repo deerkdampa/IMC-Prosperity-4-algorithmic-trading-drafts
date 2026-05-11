@@ -1,0 +1,168 @@
+========================================================================
+IMC Prosperity 4 – Round 5 Analysis Summary
+Products: 50 across 10 groups  |  Position limit: 10 each
+========================================================================
+
+── REGIME CLASSIFICATION ──
+  MEAN_REVERT     ( 4 products): DISHES, BREATH, CHOCOLATE, IRONING
+  RANDOM_WALK     (46 products): PISTACHIO, VANILLA, RASPBERRY, CHOCOLATE, STRAWBERRY, MATTER, FLAMES, CHARCOAL, WINDS, MINT, RED, WOOL, MAGENTA, ORANGE, 4X4, BREATH, HOLES, 1X2, MIST, YELLOW, BLUE, BLACK, RINGS, NYLON, GARLIC, CIRCLE, 2X4, 2X2, VACUUMING, GRAY, M, AMBER, MOPPING, L, SUEDE, COTTON, POLYESTER, LAUNDRY, 1X4, TRIANGLE, SQUARE, RECTANGLE, S, XS, OVAL, XL
+  TRENDING        ( 0 products): 
+
+── TOP 15 STRATEGY TARGETS (composite score) ──
+  SNACKPACK_PISTACHIO                         acf=-0.025  spr=15.9  σΔ=5.2  score=0.599  [RANDOM_WALK]
+  SNACKPACK_VANILLA                           acf=-0.027  spr=16.9  σΔ=6.5  score=0.597  [RANDOM_WALK]
+  SNACKPACK_RASPBERRY                         acf=-0.017  spr=16.8  σΔ=8.1  score=0.550  [RANDOM_WALK]
+  SNACKPACK_CHOCOLATE                         acf=-0.031  spr=16.5  σΔ=6.6  score=0.547  [RANDOM_WALK]
+  ROBOT_DISHES                                acf=-0.232  spr=7.4  σΔ=17.8  score=0.483  [MEAN_REVERT]
+  OXYGEN_SHAKE_EVENING_BREATH                 acf=-0.123  spr=11.9  σΔ=11.0  score=0.398  [MEAN_REVERT]
+  SNACKPACK_STRAWBERRY                        acf=-0.014  spr=17.8  σΔ=8.1  score=0.363  [RANDOM_WALK]
+  OXYGEN_SHAKE_CHOCOLATE                      acf=-0.089  spr=12.2  σΔ=10.9  score=0.306  [MEAN_REVERT]
+  GALAXY_SOUNDS_DARK_MATTER                   acf=-0.012  spr=13.1  σΔ=10.2  score=0.282  [RANDOM_WALK]
+  ROBOT_IRONING                               acf=-0.125  spr=6.4  σΔ=10.4  score=0.281  [MEAN_REVERT]
+  GALAXY_SOUNDS_SOLAR_FLAMES                  acf=-0.012  spr=14.1  σΔ=11.1  score=0.241  [RANDOM_WALK]
+  TRANSLATOR_ECLIPSE_CHARCOAL                 acf=-0.007  spr=8.7  σΔ=9.9  score=0.215  [RANDOM_WALK]
+  GALAXY_SOUNDS_SOLAR_WINDS                   acf=-0.008  spr=13.3  σΔ=10.5  score=0.198  [RANDOM_WALK]
+  OXYGEN_SHAKE_MINT                           acf=-0.003  spr=12.6  σΔ=9.9  score=0.192  [RANDOM_WALK]
+  UV_VISOR_RED                                acf=-0.003  spr=14.0  σΔ=11.0  score=0.188  [RANDOM_WALK]
+
+── PER-GROUP SUMMARY ──
+
+  GALAXY_SOUNDS
+    avg_acf=-0.011  avg_spread=13.7  avg_σΔ=10.8
+    best_product: GALAXY_SOUNDS_DARK_MATTER  (score=0.282)
+      MATTER                acf=-0.0120  spr/σ=1.27  score=0.282  RANDOM_WALK
+      FLAMES                acf=-0.0121  spr/σ=1.27  score=0.241  RANDOM_WALK
+      WINDS                 acf=-0.0078  spr/σ=1.26  score=0.198  RANDOM_WALK
+      HOLES                 acf=-0.0167  spr/σ=1.26  score=0.166  RANDOM_WALK
+      RINGS                 acf=-0.0040  spr/σ=1.26  score=0.158  RANDOM_WALK
+
+  SLEEP_POD
+    avg_acf=-0.002  avg_spread=9.7  avg_σΔ=11.1
+    best_product: SLEEP_POD_LAMB_WOOL  (score=0.185)
+      WOOL                  acf=+0.0036  spr/σ=0.88  score=0.185  RANDOM_WALK
+      NYLON                 acf=+0.0000  spr/σ=0.89  score=0.148  RANDOM_WALK
+      SUEDE                 acf=-0.0063  spr/σ=0.87  score=0.116  RANDOM_WALK
+      COTTON                acf=-0.0032  spr/σ=0.86  score=0.112  RANDOM_WALK
+      POLYESTER             acf=-0.0017  spr/σ=0.87  score=0.104  RANDOM_WALK
+
+  MICROCHIP
+    avg_acf=-0.009  avg_spread=8.8  avg_σΔ=14.0
+    best_product: MICROCHIP_CIRCLE  (score=0.146)
+      CIRCLE                acf=-0.0050  spr/σ=0.89  score=0.146  RANDOM_WALK
+      TRIANGLE              acf=-0.0069  spr/σ=0.60  score=0.084  RANDOM_WALK
+      SQUARE                acf=-0.0238  spr/σ=0.57  score=0.082  RANDOM_WALK
+      RECTANGLE             acf=-0.0027  spr/σ=0.60  score=0.077  RANDOM_WALK
+      OVAL                  acf=-0.0072  spr/σ=0.60  score=0.044  RANDOM_WALK
+
+  PEBBLES
+    avg_acf=+0.000  avg_spread=12.8  avg_σΔ=18.1
+    best_product: PEBBLES_M  (score=0.128)
+      M                     acf=-0.0048  spr/σ=0.87  score=0.128  RANDOM_WALK
+      L                     acf=+0.0070  spr/σ=0.87  score=0.117  RANDOM_WALK
+      S                     acf=+0.0077  spr/σ=0.77  score=0.070  RANDOM_WALK
+      XS                    acf=-0.0155  spr/σ=0.65  score=0.061  RANDOM_WALK
+      XL                    acf=+0.0078  spr/σ=0.55  score=0.028  RANDOM_WALK
+
+  ROBOT
+    avg_acf=-0.074  avg_spread=7.1  avg_σΔ=11.7
+    best_product: ROBOT_DISHES  (score=0.483)
+      DISHES                acf=-0.2317  spr/σ=0.41  score=0.483  MEAN_REVERT
+      IRONING               acf=-0.1253  spr/σ=0.61  score=0.281  MEAN_REVERT
+      VACUUMING             acf=-0.0080  spr/σ=0.73  score=0.134  RANDOM_WALK
+      MOPPING               acf=-0.0110  spr/σ=0.72  score=0.121  RANDOM_WALK
+      LAUNDRY               acf=+0.0057  spr/σ=0.73  score=0.104  RANDOM_WALK
+
+  UV_VISOR
+    avg_acf=-0.001  avg_spread=13.1  avg_σΔ=10.3
+    best_product: UV_VISOR_RED  (score=0.188)
+      RED                   acf=-0.0031  spr/σ=1.27  score=0.188  RANDOM_WALK
+      MAGENTA               acf=-0.0030  spr/σ=1.26  score=0.182  RANDOM_WALK
+      ORANGE                acf=+0.0016  spr/σ=1.27  score=0.181  RANDOM_WALK
+      YELLOW                acf=+0.0027  spr/σ=1.26  score=0.160  RANDOM_WALK
+      AMBER                 acf=-0.0042  spr/σ=1.29  score=0.122  RANDOM_WALK
+
+  TRANSLATOR
+    avg_acf=-0.004  avg_spread=8.8  avg_σΔ=9.9
+    best_product: TRANSLATOR_ECLIPSE_CHARCOAL  (score=0.215)
+      CHARCOAL              acf=-0.0074  spr/σ=0.88  score=0.215  RANDOM_WALK
+      MIST                  acf=-0.0037  spr/σ=0.88  score=0.161  RANDOM_WALK
+      BLUE                  acf=-0.0084  spr/σ=0.88  score=0.159  RANDOM_WALK
+      BLACK                 acf=-0.0062  spr/σ=0.89  score=0.159  RANDOM_WALK
+      GRAY                  acf=+0.0077  spr/σ=0.89  score=0.134  RANDOM_WALK
+
+  PANEL
+    avg_acf=-0.004  avg_spread=9.4  avg_σΔ=9.9
+    best_product: PANEL_4X4  (score=0.173)
+      4X4                   acf=-0.0057  spr/σ=0.88  score=0.173  RANDOM_WALK
+      1X2                   acf=-0.0024  spr/σ=1.27  score=0.163  RANDOM_WALK
+      2X4                   acf=+0.0001  spr/σ=0.87  score=0.140  RANDOM_WALK
+      2X2                   acf=-0.0112  spr/σ=0.89  score=0.135  RANDOM_WALK
+      1X4                   acf=-0.0017  spr/σ=0.88  score=0.100  RANDOM_WALK
+
+  OXYGEN_SHAKE
+    avg_acf=-0.045  avg_spread=12.9  avg_σΔ=10.8
+    best_product: OXYGEN_SHAKE_EVENING_BREATH  (score=0.398)
+      BREATH                acf=-0.1227  spr/σ=1.08  score=0.398  MEAN_REVERT
+      CHOCOLATE             acf=-0.0891  spr/σ=1.12  score=0.306  MEAN_REVERT
+      MINT                  acf=-0.0031  spr/σ=1.27  score=0.192  RANDOM_WALK
+      BREATH                acf=-0.0052  spr/σ=1.27  score=0.169  RANDOM_WALK
+      GARLIC                acf=-0.0035  spr/σ=1.25  score=0.147  RANDOM_WALK
+
+  SNACKPACK
+    avg_acf=-0.023  avg_spread=16.8  avg_σΔ=6.9
+    best_product: SNACKPACK_PISTACHIO  (score=0.599)
+      PISTACHIO             acf=-0.0252  spr/σ=3.04  score=0.599  RANDOM_WALK
+      VANILLA               acf=-0.0270  spr/σ=2.59  score=0.597  RANDOM_WALK
+      RASPBERRY             acf=-0.0169  spr/σ=2.08  score=0.550  RANDOM_WALK
+      CHOCOLATE             acf=-0.0311  spr/σ=2.50  score=0.547  RANDOM_WALK
+      STRAWBERRY            acf=-0.0141  spr/σ=2.19  score=0.363  RANDOM_WALK
+
+── TOP 20 STAT-ARB PAIRS ──
+  SNACKPACK_CHOCOLATE                      / SNACKPACK_PISTACHIO                       [SNACKPACK]  CV=0.0206  ADF-p=nan  score=0.451
+  SNACKPACK_VANILLA                        / SNACKPACK_RASPBERRY                       [SNACKPACK]  CV=0.0242  ADF-p=nan  score=0.449
+  SNACKPACK_CHOCOLATE                      / SNACKPACK_RASPBERRY                       [SNACKPACK]  CV=0.0258  ADF-p=nan  score=0.447
+  SNACKPACK_VANILLA                        / SNACKPACK_PISTACHIO                       [SNACKPACK]  CV=0.0305  ADF-p=nan  score=0.445
+  SNACKPACK_PISTACHIO                      / SNACKPACK_RASPBERRY                       [SNACKPACK]  CV=0.0316  ADF-p=nan  score=0.445
+  SNACKPACK_VANILLA                        / SNACKPACK_STRAWBERRY                      [SNACKPACK]  CV=0.0343  ADF-p=nan  score=0.443
+  SNACKPACK_CHOCOLATE                      / SNACKPACK_VANILLA                         [SNACKPACK]  CV=0.0373  ADF-p=nan  score=0.442
+  ROBOT_VACUUMING                          / ROBOT_LAUNDRY                             [ROBOT]  CV=0.0394  ADF-p=nan  score=0.441
+  SLEEP_POD_POLYESTER                      / SLEEP_POD_COTTON                          [SLEEP_POD]  CV=0.0413  ADF-p=nan  score=0.440
+  SLEEP_POD_SUEDE                          / SLEEP_POD_POLYESTER                       [SLEEP_POD]  CV=0.0434  ADF-p=nan  score=0.439
+  SNACKPACK_STRAWBERRY                     / SNACKPACK_RASPBERRY                       [SNACKPACK]  CV=0.0437  ADF-p=nan  score=0.439
+  SNACKPACK_PISTACHIO                      / SNACKPACK_STRAWBERRY                      [SNACKPACK]  CV=0.0473  ADF-p=nan  score=0.437
+  SNACKPACK_CHOCOLATE                      / SNACKPACK_STRAWBERRY                      [SNACKPACK]  CV=0.0487  ADF-p=nan  score=0.437
+  TRANSLATOR_ECLIPSE_CHARCOAL              / TRANSLATOR_VOID_BLUE                      [TRANSLATOR]  CV=0.0484  ADF-p=nan  score=0.436
+  SLEEP_POD_LAMB_WOOL                      / SLEEP_POD_NYLON                           [SLEEP_POD]  CV=0.0468  ADF-p=nan  score=0.436
+  UV_VISOR_ORANGE                          / UV_VISOR_MAGENTA                          [UV_VISOR]  CV=0.0494  ADF-p=nan  score=0.436
+  GALAXY_SOUNDS_DARK_MATTER                / GALAXY_SOUNDS_SOLAR_FLAMES                [GALAXY_SOUNDS]  CV=0.0522  ADF-p=nan  score=0.435
+  ROBOT_VACUUMING                          / ROBOT_IRONING                             [ROBOT]  CV=0.0551  ADF-p=nan  score=0.435
+  ROBOT_LAUNDRY                            / ROBOT_IRONING                             [ROBOT]  CV=0.0589  ADF-p=nan  score=0.433
+  ROBOT_MOPPING                            / ROBOT_DISHES                              [ROBOT]  CV=0.0669  ADF-p=nan  score=0.432
+
+── NOTES ──
+  • Position limit = 10 for ALL products.
+  • With limit 10, MM PnL per product is small – prioritise best scorers.
+  • Stat-arb: long cheap / short expensive within group. Ratio CV < 5% = tightest.
+  • MEAN_REVERT products: use EMA deviation entry with tight exits.
+  • RANDOM_WALK products: pure MM with symmetric spreads.
+  • TRENDING products: skew inventory or skip entirely.
+
+── FILES GENERATED ──
+  01_group_prices.png
+  02_regime_acf.png
+  03_ema_deviation.png
+  04_spread_summary.png
+  05_statarb_ratios.png
+  06_statarb_zscores.png
+  07_volatility_ranking.png
+  08_strategy_heatmap.png
+  09_trade_volume.png
+  10_group_correlation.png
+  product_strategy_scores.csv
+  statarb_pairs.csv
+
+── NEXT STEP ──
+Upload all PNGs + 00_summary.txt to Claude.
+Ask: 'Here are my Round 5 analysis results – build the cherry-picking trader.py'
+
+========================================================================

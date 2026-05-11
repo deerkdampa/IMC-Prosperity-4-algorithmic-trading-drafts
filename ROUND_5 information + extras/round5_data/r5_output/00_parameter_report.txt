@@ -1,0 +1,101 @@
+========================================================================
+IMC Prosperity 4 – Round 5 Parameter Report
+Per-product recommended trading parameters
+========================================================================
+
+COLUMN GUIDE:
+  ema_thresh  : trade when mid deviates > thresh from EMA (MR entry)
+  take_edge   : aggressive take limit (≈40% of thresh)
+  mm_halfspread: post limit orders at ±mm_halfspread from mid
+  strategy    : recommended approach
+
+── GALAXY_SOUNDS ──
+  GALAXY_SOUNDS_DARK_MATTER                   ema_thresh=  35.2  take_edge=  14  mm_halfspread=   7  score=0.282  → MARKET_MAKE
+  GALAXY_SOUNDS_SOLAR_FLAMES                  ema_thresh=  38.1  take_edge=  15  mm_halfspread=   8  score=0.241  → MARKET_MAKE
+  GALAXY_SOUNDS_SOLAR_WINDS                   ema_thresh=  36.8  take_edge=  15  mm_halfspread=   7  score=0.198  → MARKET_MAKE
+  GALAXY_SOUNDS_BLACK_HOLES                   ema_thresh=  40.1  take_edge=  16  mm_halfspread=   8  score=0.166  → MARKET_MAKE
+  GALAXY_SOUNDS_PLANETARY_RINGS               ema_thresh=  38.6  take_edge=  15  mm_halfspread=   8  score=0.158  → MARKET_MAKE
+
+── SLEEP_POD ──
+  SLEEP_POD_LAMB_WOOL                         ema_thresh=  38.6  take_edge=  15  mm_halfspread=   5  score=0.185  → SKIP_OR_WIDE_MM
+  SLEEP_POD_NYLON                             ema_thresh=  33.3  take_edge=  13  mm_halfspread=   5  score=0.148  → SKIP_OR_WIDE_MM
+  SLEEP_POD_SUEDE                             ema_thresh=  39.3  take_edge=  16  mm_halfspread=   5  score=0.116  → SKIP_OR_WIDE_MM
+  SLEEP_POD_COTTON                            ema_thresh=  40.6  take_edge=  16  mm_halfspread=   6  score=0.112  → SKIP_OR_WIDE_MM
+  SLEEP_POD_POLYESTER                         ema_thresh=  41.7  take_edge=  17  mm_halfspread=   6  score=0.104  → SKIP_OR_WIDE_MM
+
+── MICROCHIP ──
+  MICROCHIP_CIRCLE                            ema_thresh=  32.1  take_edge=  13  mm_halfspread=   5  score=0.146  → SKIP_OR_WIDE_MM
+  MICROCHIP_TRIANGLE                          ema_thresh=  49.9  take_edge=  20  mm_halfspread=   5  score=0.084  → SKIP_OR_WIDE_MM
+  MICROCHIP_SQUARE                            ema_thresh=  70.8  take_edge=  28  mm_halfspread=   6  score=0.082  → SKIP_OR_WIDE_MM
+  MICROCHIP_RECTANGLE                         ema_thresh=  46.0  take_edge=  18  mm_halfspread=   4  score=0.077  → SKIP_OR_WIDE_MM
+  MICROCHIP_OVAL                              ema_thresh=  42.8  take_edge=  17  mm_halfspread=   4  score=0.044  → SKIP_OR_WIDE_MM
+
+── PEBBLES ──
+  PEBBLES_M                                   ema_thresh=  53.1  take_edge=  21  mm_halfspread=   7  score=0.128  → SKIP_OR_WIDE_MM
+  PEBBLES_L                                   ema_thresh=  52.1  take_edge=  21  mm_halfspread=   7  score=0.117  → SKIP_OR_WIDE_MM
+  PEBBLES_S                                   ema_thresh=  52.5  take_edge=  21  mm_halfspread=   6  score=0.070  → SKIP_OR_WIDE_MM
+  PEBBLES_XS                                  ema_thresh=  51.9  take_edge=  21  mm_halfspread=   5  score=0.061  → SKIP_OR_WIDE_MM
+  PEBBLES_XL                                  ema_thresh= 106.5  take_edge=  43  mm_halfspread=   9  score=0.028  → SKIP_OR_WIDE_MM
+
+── ROBOT ──
+  ROBOT_DISHES                                ema_thresh=  40.5  take_edge=  16  mm_halfspread=   4  score=0.483  → MR_SCALP
+  ROBOT_IRONING                               ema_thresh=  31.2  take_edge=  12  mm_halfspread=   4  score=0.281  → MR_SCALP
+  ROBOT_VACUUMING                             ema_thresh=  32.2  take_edge=  13  mm_halfspread=   4  score=0.134  → SKIP_OR_WIDE_MM
+  ROBOT_MOPPING                               ema_thresh=  37.9  take_edge=  15  mm_halfspread=   4  score=0.121  → SKIP_OR_WIDE_MM
+  ROBOT_LAUNDRY                               ema_thresh=  34.9  take_edge=  14  mm_halfspread=   4  score=0.104  → SKIP_OR_WIDE_MM
+
+── UV_VISOR ──
+  UV_VISOR_RED                                ema_thresh=  37.8  take_edge=  15  mm_halfspread=   8  score=0.188  → MARKET_MAKE
+  UV_VISOR_MAGENTA                            ema_thresh=  38.3  take_edge=  15  mm_halfspread=   8  score=0.182  → MARKET_MAKE
+  UV_VISOR_ORANGE                             ema_thresh=  36.9  take_edge=  15  mm_halfspread=   7  score=0.181  → MARKET_MAKE
+  UV_VISOR_YELLOW                             ema_thresh=  38.4  take_edge=  15  mm_halfspread=   8  score=0.160  → MARKET_MAKE
+  UV_VISOR_AMBER                              ema_thresh=  27.8  take_edge=  11  mm_halfspread=   6  score=0.122  → MARKET_MAKE
+
+── TRANSLATOR ──
+  TRANSLATOR_ECLIPSE_CHARCOAL                 ema_thresh=  33.5  take_edge=  13  mm_halfspread=   5  score=0.215  → SKIP_OR_WIDE_MM
+  TRANSLATOR_GRAPHITE_MIST                    ema_thresh=  34.8  take_edge=  14  mm_halfspread=   5  score=0.161  → SKIP_OR_WIDE_MM
+  TRANSLATOR_VOID_BLUE                        ema_thresh=  37.2  take_edge=  15  mm_halfspread=   5  score=0.159  → SKIP_OR_WIDE_MM
+  TRANSLATOR_ASTRO_BLACK                      ema_thresh=  33.5  take_edge=  13  mm_halfspread=   5  score=0.159  → SKIP_OR_WIDE_MM
+  TRANSLATOR_SPACE_GRAY                       ema_thresh=  33.3  take_edge=  13  mm_halfspread=   5  score=0.134  → SKIP_OR_WIDE_MM
+
+── PANEL ──
+  PANEL_4X4                                   ema_thresh=  34.7  take_edge=  14  mm_halfspread=   5  score=0.173  → SKIP_OR_WIDE_MM
+  PANEL_1X2                                   ema_thresh=  31.7  take_edge=  13  mm_halfspread=   6  score=0.163  → MARKET_MAKE
+  PANEL_2X4                                   ema_thresh=  39.3  take_edge=  16  mm_halfspread=   5  score=0.140  → SKIP_OR_WIDE_MM
+  PANEL_2X2                                   ema_thresh=  33.3  take_edge=  13  mm_halfspread=   5  score=0.135  → SKIP_OR_WIDE_MM
+  PANEL_1X4                                   ema_thresh=  32.9  take_edge=  13  mm_halfspread=   5  score=0.100  → SKIP_OR_WIDE_MM
+
+── OXYGEN_SHAKE ──
+  OXYGEN_SHAKE_EVENING_BREATH                 ema_thresh=  32.6  take_edge=  13  mm_halfspread=   7  score=0.398  → MR_SCALP
+  OXYGEN_SHAKE_CHOCOLATE                      ema_thresh=  33.5  take_edge=  13  mm_halfspread=   7  score=0.306  → MR_SCALP
+  OXYGEN_SHAKE_MINT                           ema_thresh=  34.7  take_edge=  14  mm_halfspread=   7  score=0.192  → MARKET_MAKE
+  OXYGEN_SHAKE_MORNING_BREATH                 ema_thresh=  34.1  take_edge=  14  mm_halfspread=   7  score=0.169  → MARKET_MAKE
+  OXYGEN_SHAKE_GARLIC                         ema_thresh=  42.2  take_edge=  17  mm_halfspread=   8  score=0.147  → MARKET_MAKE
+
+── SNACKPACK ──
+  SNACKPACK_PISTACHIO                         ema_thresh=  17.8  take_edge=   7  mm_halfspread=   9  score=0.599  → MARKET_MAKE
+  SNACKPACK_VANILLA                           ema_thresh=  22.2  take_edge=   9  mm_halfspread=   9  score=0.597  → MARKET_MAKE
+  SNACKPACK_RASPBERRY                         ema_thresh=  27.5  take_edge=  11  mm_halfspread=   9  score=0.550  → MARKET_MAKE
+  SNACKPACK_CHOCOLATE                         ema_thresh=  22.2  take_edge=   9  mm_halfspread=   9  score=0.547  → MARKET_MAKE
+  SNACKPACK_STRAWBERRY                        ema_thresh=  27.8  take_edge=  11  mm_halfspread=  10  score=0.363  → MARKET_MAKE
+
+── STAT-ARB PAIRS (top 10, threshold = 1.5σ entry / 0.5σ exit) ──
+  SNACKPACK_CHOCOLATE                    / SNACKPACK_PISTACHIO                     ratio_mean=1.0368  ±1.5σ=[1.0048, 1.0688]  ADF-p=nan
+  SNACKPACK_VANILLA                      / SNACKPACK_RASPBERRY                     ratio_mean=1.0022  ±1.5σ=[0.9658, 1.0386]  ADF-p=nan
+  SNACKPACK_CHOCOLATE                    / SNACKPACK_RASPBERRY                     ratio_mean=0.9770  ±1.5σ=[0.9392, 1.0148]  ADF-p=nan
+  SNACKPACK_VANILLA                      / SNACKPACK_PISTACHIO                     ratio_mean=1.0639  ±1.5σ=[1.0153, 1.1125]  ADF-p=nan
+  SNACKPACK_PISTACHIO                    / SNACKPACK_RASPBERRY                     ratio_mean=0.9427  ±1.5σ=[0.8979, 0.9874]  ADF-p=nan
+  SNACKPACK_VANILLA                      / SNACKPACK_STRAWBERRY                    ratio_mean=0.9440  ±1.5σ=[0.8954, 0.9926]  ADF-p=nan
+  SNACKPACK_CHOCOLATE                    / SNACKPACK_VANILLA                       ratio_mean=0.9755  ±1.5σ=[0.9209, 1.0300]  ADF-p=nan
+  ROBOT_VACUUMING                        / ROBOT_LAUNDRY                           ratio_mean=0.9342  ±1.5σ=[0.8790, 0.9894]  ADF-p=nan
+  SLEEP_POD_POLYESTER                    / SLEEP_POD_COTTON                        ratio_mean=1.0274  ±1.5σ=[0.9638, 1.0910]  ADF-p=nan
+  SLEEP_POD_SUEDE                        / SLEEP_POD_POLYESTER                     ratio_mean=0.9637  ±1.5σ=[0.9011, 1.0264]  ADF-p=nan
+
+── POSITION MANAGEMENT NOTES ──
+  Position limit: 10 per product (hard enforced by exchange).
+  With limit 10, do NOT mix aggressive MR + stat-arb on same product.
+  Recommend: pick top 10–15 products, trade each with dedicated logic.
+  Stat-arb pairs: hedge ratio 1:1 when ratio_cv < 5%.
+  Risk: if pattern breaks (new regime), close positions immediately.
+
+========================================================================
