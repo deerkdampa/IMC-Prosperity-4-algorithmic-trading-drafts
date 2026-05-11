@@ -1,0 +1,184 @@
+════════════════════════════════════════════════════════════════════════
+  CLAUDE STRATEGY BRIEF — IMC Prosperity 4 Round 5
+════════════════════════════════════════════════════════════════════════
+  Paste this file into Claude along with the PNG charts.
+  Claude: read this first, then use charts for confirmation.
+
+── 1. PORTFOLIO SNAPSHOT ─────────────────────────────────────────────
+  Total PnL       : -52,813 XIRECS
+  Sharpe Ratio    : -5.3973
+  Sortino Ratio   : -4.9506
+  Calmar Ratio    : -0.9947
+  Max Drawdown    : 53,096 XIRECS
+  Win Rate        : 43.3%
+  # Products      : 50
+
+── 2. GROUP ATTRIBUTION (sorted best → worst) ────────────────────────
+  SLEEP_POD           PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  MICROCHIP           PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  PEBBLES             PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  ROBOT               PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  TRANSLATOR          PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  PANEL               PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  OXYGEN_SHAKE        PnL=       -96  Sharpe=-0.046  ❌ REVIEW
+  GALAXY_SOUNDS       PnL=   -15,149  Sharpe=-2.910  ❌ REVIEW
+  SNACKPACK           PnL=   -16,954  Sharpe=-3.550  ❌ REVIEW
+  UV_VISOR            PnL=   -20,614  Sharpe=-3.972  ❌ REVIEW
+
+── 3. CHERRY-PICK TABLE (all traded products) ────────────────────────
+  Product                                           PnL   Sharpe    WR%       Regime  Verdict
+  ───────────────────────────────────────────────────────────────────────────────────────────────
+  ROBOT_IRONING                                      +0   +0.000   0.0%  MEAN_REVERT  ⚪ FLAT — negligible edge
+  TRANSLATOR_VOID_BLUE                               +0   +0.000   0.0%  MEAN_REVERT  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_EVENING_BREATH                       -96   -0.046  14.7%  MEAN_REVERT  🟠 REVIEW — negative PnL, check logic
+  SNACKPACK_CHOCOLATE                            -3,361   -1.559  49.2%  MEAN_REVERT  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_PLANETARY_RINGS                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_LAMB_WOOL                                +0   +0.000   0.0%     TRENDING  ⚪ FLAT — negligible edge
+  TRANSLATOR_SPACE_GRAY                              +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_NYLON                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SNACKPACK_PISTACHIO                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_2X2                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_2X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_4X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_RECTANGLE                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_POLYESTER                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_DISHES                                       +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  GALAXY_SOUNDS_SOLAR_WINDS                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_MOPPING                                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_ECLIPSE_CHARCOAL                        +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_ASTRO_BLACK                             +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_LAUNDRY                                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_SQUARE                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_SUEDE                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_OVAL                                     +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_VACUUMING                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_CIRCLE                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_MINT                                  +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_GARLIC                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_XL                                         +0   +0.000   0.0%     TRENDING  ⚪ FLAT — negligible edge
+  PEBBLES_S                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_COTTON                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_1X2                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_1X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_XS                                         +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_MORNING_BREATH                        +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_GRAPHITE_MIST                           +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  GALAXY_SOUNDS_DARK_MATTER                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  UV_VISOR_ORANGE                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_CHOCOLATE                             +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_TRIANGLE                                 +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  UV_VISOR_AMBER                                     +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  UV_VISOR_RED                                       +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_L                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_M                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  GALAXY_SOUNDS_BLACK_HOLES                      -7,198   -1.843  49.2%  MEAN_REVERT  🔴 DROP — consistently losing
+  SNACKPACK_VANILLA                              -2,974   -1.404  48.4%  RANDOM_WALK  🔴 DROP — consistently losing
+  SNACKPACK_STRAWBERRY                           -5,110   -1.944  47.1%  RANDOM_WALK  🔴 DROP — consistently losing
+  SNACKPACK_RASPBERRY                            -5,509   -2.118  47.2%  RANDOM_WALK  🔴 DROP — consistently losing
+  UV_VISOR_YELLOW                                -7,864   -2.050  48.0%  RANDOM_WALK  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_SOLAR_FLAMES                     -7,951   -2.314  47.5%  RANDOM_WALK  🔴 DROP — consistently losing
+  UV_VISOR_MAGENTA                              -12,750   -3.665  46.1%  RANDOM_WALK  🔴 DROP — consistently losing
+
+── 4. PRODUCTS TO DROP (losing on risk-adj basis) ────────────────────
+  - SNACKPACK_CHOCOLATE
+  - GALAXY_SOUNDS_BLACK_HOLES
+  - SNACKPACK_VANILLA
+  - SNACKPACK_STRAWBERRY
+  - SNACKPACK_RASPBERRY
+  - UV_VISOR_YELLOW
+  - GALAXY_SOUNDS_SOLAR_FLAMES
+  - UV_VISOR_MAGENTA
+
+── 6. POSITION UTILISATION FLAGS ────────────────────────────────────
+  GALAXY_SOUNDS_BLACK_HOLES                   ⚠️  CAPPED — increase usage or accept cap  (util=95%)
+  GALAXY_SOUNDS_DARK_MATTER                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  GALAXY_SOUNDS_PLANETARY_RINGS               ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  GALAXY_SOUNDS_SOLAR_FLAMES                  ⚠️  CAPPED — increase usage or accept cap  (util=93%)
+  GALAXY_SOUNDS_SOLAR_WINDS                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  MICROCHIP_CIRCLE                            ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  MICROCHIP_OVAL                              ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  MICROCHIP_RECTANGLE                         ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  MICROCHIP_SQUARE                            ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  MICROCHIP_TRIANGLE                          ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  OXYGEN_SHAKE_CHOCOLATE                      ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  OXYGEN_SHAKE_GARLIC                         ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  OXYGEN_SHAKE_MINT                           ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  OXYGEN_SHAKE_MORNING_BREATH                 ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PANEL_1X2                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PANEL_1X4                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PANEL_2X2                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PANEL_2X4                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PANEL_4X4                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PEBBLES_L                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PEBBLES_M                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PEBBLES_S                                   ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PEBBLES_XL                                  ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  PEBBLES_XS                                  ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  ROBOT_DISHES                                ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  ROBOT_IRONING                               ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  ROBOT_LAUNDRY                               ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  ROBOT_MOPPING                               ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  ROBOT_VACUUMING                             ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SLEEP_POD_COTTON                            ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SLEEP_POD_LAMB_WOOL                         ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SLEEP_POD_NYLON                             ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SLEEP_POD_POLYESTER                         ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SLEEP_POD_SUEDE                             ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SNACKPACK_CHOCOLATE                         ⚠️  CAPPED — increase usage or accept cap  (util=93%)
+  SNACKPACK_PISTACHIO                         ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  SNACKPACK_RASPBERRY                         ⚠️  CAPPED — increase usage or accept cap  (util=90%)
+  SNACKPACK_STRAWBERRY                        ⚠️  CAPPED — increase usage or accept cap  (util=91%)
+  SNACKPACK_VANILLA                           ⚠️  CAPPED — increase usage or accept cap  (util=92%)
+  TRANSLATOR_ASTRO_BLACK                      ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  TRANSLATOR_ECLIPSE_CHARCOAL                 ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  TRANSLATOR_GRAPHITE_MIST                    ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  TRANSLATOR_SPACE_GRAY                       ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  TRANSLATOR_VOID_BLUE                        ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  UV_VISOR_AMBER                              ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  UV_VISOR_MAGENTA                            ⚠️  CAPPED — increase usage or accept cap  (util=92%)
+  UV_VISOR_ORANGE                             ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  UV_VISOR_RED                                ⚠️  UNDER-USED  (util=0%) — widen MM spread or increase edge threshold
+  UV_VISOR_YELLOW                             ⚠️  CAPPED — increase usage or accept cap  (util=95%)
+
+── 7. REGIME BREAKDOWN ──────────────────────────────────────────────
+  MEAN_REVERT     ( 5): ROBOT_IRONING, VOID_BLUE, EVENING_BREATH, SNACKPACK_CHOCOLATE, BLACK_HOLES
+  TRENDING        ( 2): LAMB_WOOL, PEBBLES_XL
+  RANDOM_WALK     (43): PLANETARY_RINGS, SPACE_GRAY, POD_NYLON, SNACKPACK_PISTACHIO, PANEL_2X2, PANEL_2X4, PANEL_4X4, MICROCHIP_RECTANGLE, POD_POLYESTER, ROBOT_DISHES, SOLAR_WINDS, ROBOT_MOPPING, ECLIPSE_CHARCOAL, ASTRO_BLACK, ROBOT_LAUNDRY, MICROCHIP_SQUARE, POD_SUEDE, MICROCHIP_OVAL, ROBOT_VACUUMING, MICROCHIP_CIRCLE, SHAKE_MINT, SHAKE_GARLIC, PEBBLES_S, POD_COTTON, PANEL_1X2, PANEL_1X4, PEBBLES_XS, MORNING_BREATH, GRAPHITE_MIST, DARK_MATTER, VISOR_ORANGE, SHAKE_CHOCOLATE, MICROCHIP_TRIANGLE, VISOR_AMBER, VISOR_RED, PEBBLES_L, PEBBLES_M, SNACKPACK_VANILLA, SNACKPACK_STRAWBERRY, SNACKPACK_RASPBERRY, VISOR_YELLOW, SOLAR_FLAMES, VISOR_MAGENTA
+
+── 8. TOP MEAN-REVERSION SIGNALS ────────────────────────────────────
+  Product                                        ACF1     CI95  Regime
+  ROBOT_IRONING                               -0.1281   0.0620  MEAN_REVERT ← scalp this
+  OXYGEN_SHAKE_EVENING_BREATH                 -0.1277   0.0620  MEAN_REVERT ← scalp this
+  SNACKPACK_CHOCOLATE                         -0.0836   0.0620  MEAN_REVERT ← scalp this
+  GALAXY_SOUNDS_BLACK_HOLES                   -0.0668   0.0620  MEAN_REVERT ← scalp this
+  TRANSLATOR_VOID_BLUE                        -0.0640   0.0620  MEAN_REVERT ← scalp this
+
+── 9. RECOMMENDED CODE CHANGES ──────────────────────────────────────
+  Based on this report, tell Claude:
+  • Remove SNACKPACK_CHOCOLATE from ALL_SYMBOLS in trader.py
+  • Remove GALAXY_SOUNDS_BLACK_HOLES from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_VANILLA from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_STRAWBERRY from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_RASPBERRY from ALL_SYMBOLS in trader.py
+  • Remove UV_VISOR_YELLOW from ALL_SYMBOLS in trader.py
+  • Remove GALAXY_SOUNDS_SOLAR_FLAMES from ALL_SYMBOLS in trader.py
+  • Remove UV_VISOR_MAGENTA from ALL_SYMBOLS in trader.py
+
+── 10. FILES IN THIS REPORT ─────────────────────────────────────────
+  01_pnl_curves.png
+  02_risk_dashboard.png
+  03_cherry_pick_ranking.png
+  04_group_attribution.png
+  05_return_acf.png
+  06_rolling_sharpe.png
+  07_drawdown_curves.png
+  08_position_utilisation.png
+  09_return_distributions.png
+  10_portfolio_risk.png
+  11_spread_analysis.png
+  12_correlation_heatmap.png
+  CLAUDE_STRATEGY_BRIEF.txt
+  compare_pnl_delta.png
+  r5_summary.json
+
+════════════════════════════════════════════════════════════════════════

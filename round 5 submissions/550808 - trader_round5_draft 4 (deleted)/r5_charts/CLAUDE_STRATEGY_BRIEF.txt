@@ -1,0 +1,205 @@
+════════════════════════════════════════════════════════════════════════
+  CLAUDE STRATEGY BRIEF — IMC Prosperity 4 Round 5
+════════════════════════════════════════════════════════════════════════
+  Paste this file into Claude along with the PNG charts.
+  Claude: read this first, then use charts for confirmation.
+
+── 1. PORTFOLIO SNAPSHOT ─────────────────────────────────────────────
+  Total PnL       : -48,777 XIRECS
+  Sharpe Ratio    : -4.4338
+  Sortino Ratio   : -4.2594
+  Calmar Ratio    : -1.0031
+  Max Drawdown    : 48,627 XIRECS
+  Win Rate        : 43.7%
+  # Products      : 50
+
+── 2. GROUP ATTRIBUTION (sorted best → worst) ────────────────────────
+  SLEEP_POD           PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  MICROCHIP           PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  PEBBLES             PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  TRANSLATOR          PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  PANEL               PnL=        +0  Sharpe=+0.000  ❌ REVIEW
+  ROBOT               PnL=    -4,046  Sharpe=-2.356  ❌ REVIEW
+  OXYGEN_SHAKE        PnL=    -5,624  Sharpe=-1.704  ❌ REVIEW
+  SNACKPACK           PnL=   -10,923  Sharpe=-2.198  ❌ REVIEW
+  UV_VISOR            PnL=   -14,022  Sharpe=-2.409  ❌ REVIEW
+  GALAXY_SOUNDS       PnL=   -14,161  Sharpe=-2.395  ❌ REVIEW
+
+── 3. CHERRY-PICK TABLE (all traded products) ────────────────────────
+  Product                                           PnL   Sharpe    WR%       Regime  Verdict
+  ───────────────────────────────────────────────────────────────────────────────────────────────
+  GALAXY_SOUNDS_BLACK_HOLES                          +0   +0.000   0.0%  MEAN_REVERT  ⚪ FLAT — negligible edge
+  TRANSLATOR_VOID_BLUE                               +0   +0.000   0.0%  MEAN_REVERT  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_EVENING_BREATH                       -42   -0.047   6.1%  MEAN_REVERT  🟠 REVIEW — negative PnL, check logic
+  ROBOT_IRONING                                    -764   -0.779   4.0%  MEAN_REVERT  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_PLANETARY_RINGS                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_LAMB_WOOL                                +0   +0.000   0.0%     TRENDING  ⚪ FLAT — negligible edge
+  TRANSLATOR_SPACE_GRAY                              +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_NYLON                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_2X2                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_2X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_4X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_RECTANGLE                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_POLYESTER                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_MOPPING                                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_ECLIPSE_CHARCOAL                        +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_ASTRO_BLACK                             +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_LAUNDRY                                      +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_SQUARE                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_SUEDE                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_OVAL                                     +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  ROBOT_VACUUMING                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_CIRCLE                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_GARLIC                                +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_XL                                         +0   +0.000   0.0%     TRENDING  ⚪ FLAT — negligible edge
+  PEBBLES_S                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SLEEP_POD_COTTON                                   +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_1X2                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PANEL_1X4                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_XS                                         +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  OXYGEN_SHAKE_MORNING_BREATH                        +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  TRANSLATOR_GRAPHITE_MIST                           +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  UV_VISOR_YELLOW                                    +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  MICROCHIP_TRIANGLE                                 +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  UV_VISOR_AMBER                                     +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_L                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  PEBBLES_M                                          +0   +0.000   0.0%  RANDOM_WALK  ⚪ FLAT — negligible edge
+  SNACKPACK_CHOCOLATE                            -2,966   -1.442  49.2%  MEAN_REVERT  🔴 DROP — consistently losing
+  SNACKPACK_VANILLA                              -1,502   -0.722  49.2%  RANDOM_WALK  🔴 DROP — consistently losing
+  UV_VISOR_ORANGE                                -1,812   -0.563  47.7%  RANDOM_WALK  🔴 DROP — consistently losing
+  SNACKPACK_PISTACHIO                            -1,920   -1.157  47.5%  RANDOM_WALK  🔴 DROP — consistently losing
+  OXYGEN_SHAKE_CHOCOLATE                         -1,568   -1.844   6.6%  RANDOM_WALK  🔴 DROP — consistently losing
+  SNACKPACK_STRAWBERRY                           -2,200   -0.841  47.6%  RANDOM_WALK  🔴 DROP — consistently losing
+  SNACKPACK_RASPBERRY                            -2,336   -0.912  48.8%  RANDOM_WALK  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_SOLAR_WINDS                      -3,246   -0.933  47.9%  RANDOM_WALK  🔴 DROP — consistently losing
+  ROBOT_DISHES                                   -3,282   -2.331  10.8%  RANDOM_WALK  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_SOLAR_FLAMES                     -3,960   -1.178  48.8%  RANDOM_WALK  🔴 DROP — consistently losing
+  OXYGEN_SHAKE_MINT                              -4,014   -1.313  47.4%  RANDOM_WALK  🔴 DROP — consistently losing
+  UV_VISOR_RED                                   -5,198   -1.509  48.3%  RANDOM_WALK  🔴 DROP — consistently losing
+  GALAXY_SOUNDS_DARK_MATTER                      -6,955   -2.047  45.8%  RANDOM_WALK  🔴 DROP — consistently losing
+  UV_VISOR_MAGENTA                               -7,011   -2.056  48.2%  RANDOM_WALK  🔴 DROP — consistently losing
+
+── 4. PRODUCTS TO DROP (losing on risk-adj basis) ────────────────────
+  - ROBOT_IRONING
+  - SNACKPACK_CHOCOLATE
+  - SNACKPACK_VANILLA
+  - UV_VISOR_ORANGE
+  - SNACKPACK_PISTACHIO
+  - OXYGEN_SHAKE_CHOCOLATE
+  - SNACKPACK_STRAWBERRY
+  - SNACKPACK_RASPBERRY
+  - GALAXY_SOUNDS_SOLAR_WINDS
+  - ROBOT_DISHES
+  - GALAXY_SOUNDS_SOLAR_FLAMES
+  - OXYGEN_SHAKE_MINT
+  - UV_VISOR_RED
+  - GALAXY_SOUNDS_DARK_MATTER
+  - UV_VISOR_MAGENTA
+
+── 6. EXECUTION DIAGNOSIS ───────────────────────────────────────────
+  NEVER_ORDERED  :   0  products — algo not generating orders
+  ORDERS_REJECTED:  34  products — orders sent but never fill
+  FILLED_FLAT    :   0  products — fills but zero edge
+  ACTIVE         :  16  products — trading normally
+
+  ORDERS_REJECTED:
+    GALAXY_SOUNDS_BLACK_HOLES                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    GALAXY_SOUNDS_PLANETARY_RINGS               Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    MICROCHIP_CIRCLE                            Market is live (22 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    MICROCHIP_OVAL                              Market is live (22 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    MICROCHIP_RECTANGLE                         Market is live (22 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    MICROCHIP_SQUARE                            Market is live (22 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    MICROCHIP_TRIANGLE                          Market is live (22 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    OXYGEN_SHAKE_GARLIC                         Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    OXYGEN_SHAKE_MORNING_BREATH                 Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PANEL_1X2                                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PANEL_1X4                                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PANEL_2X2                                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PANEL_2X4                                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PANEL_4X4                                   Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PEBBLES_L                                   Market is live (21 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PEBBLES_M                                   Market is live (21 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PEBBLES_S                                   Market is live (21 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PEBBLES_XL                                  Market is live (21 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    PEBBLES_XS                                  Market is live (21 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    ROBOT_LAUNDRY                               Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    ROBOT_MOPPING                               Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    ROBOT_VACUUMING                             Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    SLEEP_POD_COTTON                            Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    SLEEP_POD_LAMB_WOOL                         Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    SLEEP_POD_NYLON                             Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    SLEEP_POD_POLYESTER                         Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    SLEEP_POD_SUEDE                             Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    TRANSLATOR_ASTRO_BLACK                      Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    TRANSLATOR_ECLIPSE_CHARCOAL                 Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    TRANSLATOR_GRAPHITE_MIST                    Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    TRANSLATOR_SPACE_GRAY                       Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    TRANSLATOR_VOID_BLUE                        Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    UV_VISOR_AMBER                              Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+    UV_VISOR_YELLOW                             Market is live (30 bot trades) but your orders never filled. Most likely cause: position-limit arithmetic error — algo thinks it is already at limit and rejects every new order. Check position initialisation.
+
+── 6b. DIRECTIONAL BIAS (capped + losing) ────────────────────────────
+  Product                                         Dom  BiasCrr  Root Cause
+  ────────────────────────────────────────────────────────────────────────────────────────────────────
+  GALAXY_SOUNDS_SOLAR_WINDS                  BALANCED   +0.001  CAPPED, BALANCED direction  →  position flipping at ±limit each way. Spread is too tight relative to noise — you fill on both sides at unfavourable prices. Fix: widen your MM half-spread by 1–2 ticks, or add a minimum-edge filter before each order.
+  GALAXY_SOUNDS_DARK_MATTER                      LONG   -0.039  CAPPED LONG but price direction mixed  →  position is stuck long but not clearly from a trend bias. Most likely: your inventory skew / mean-reversion exit is not working — once long you cannot get flat. Fix: add a hard exit if position > 7 for N ticks; widen sell quotes.
+  GALAXY_SOUNDS_SOLAR_FLAMES                 BALANCED   +0.032  CAPPED, BALANCED direction  →  position flipping at ±limit each way. Spread is too tight relative to noise — you fill on both sides at unfavourable prices. Fix: widen your MM half-spread by 1–2 ticks, or add a minimum-edge filter before each order.
+  UV_VISOR_ORANGE                               SHORT   +0.014  CAPPED SHORT but price direction mixed  →  stuck short without a clear trend bias. Fix: add a hard exit if position < -7 for N ticks; widen buy quotes to unwind faster.
+  OXYGEN_SHAKE_MINT                              LONG   +0.011  CAPPED LONG but price direction mixed  →  position is stuck long but not clearly from a trend bias. Most likely: your inventory skew / mean-reversion exit is not working — once long you cannot get flat. Fix: add a hard exit if position > 7 for N ticks; widen sell quotes.
+  UV_VISOR_MAGENTA                               LONG   -0.030  CAPPED LONG but price direction mixed  →  position is stuck long but not clearly from a trend bias. Most likely: your inventory skew / mean-reversion exit is not working — once long you cannot get flat. Fix: add a hard exit if position > 7 for N ticks; widen sell quotes.
+  UV_VISOR_RED                                  SHORT   +0.001  CAPPED SHORT but price direction mixed  →  stuck short without a clear trend bias. Fix: add a hard exit if position < -7 for N ticks; widen buy quotes to unwind faster.
+  SNACKPACK_CHOCOLATE                           SHORT   -0.040  CAPPED SHORT but price direction mixed  →  stuck short without a clear trend bias. Fix: add a hard exit if position < -7 for N ticks; widen buy quotes to unwind faster.
+  SNACKPACK_VANILLA                          BALANCED   -0.029  CAPPED, BALANCED direction  →  position flipping at ±limit each way. Spread is too tight relative to noise — you fill on both sides at unfavourable prices. Fix: widen your MM half-spread by 1–2 ticks, or add a minimum-edge filter before each order.
+  SNACKPACK_STRAWBERRY                       BALANCED   +0.020  CAPPED, BALANCED direction  →  position flipping at ±limit each way. Spread is too tight relative to noise — you fill on both sides at unfavourable prices. Fix: widen your MM half-spread by 1–2 ticks, or add a minimum-edge filter before each order.
+  SNACKPACK_RASPBERRY                           SHORT   -0.020  CAPPED SHORT but price direction mixed  →  stuck short without a clear trend bias. Fix: add a hard exit if position < -7 for N ticks; widen buy quotes to unwind faster.
+  SNACKPACK_PISTACHIO                        BALANCED   +0.017  CAPPED, BALANCED direction  →  position flipping at ±limit each way. Spread is too tight relative to noise — you fill on both sides at unfavourable prices. Fix: widen your MM half-spread by 1–2 ticks, or add a minimum-edge filter before each order.
+
+── 7. REGIME BREAKDOWN ──────────────────────────────────────────────
+  MEAN_REVERT     ( 5): BLACK_HOLES, VOID_BLUE, EVENING_BREATH, ROBOT_IRONING, SNACKPACK_CHOCOLATE
+  TRENDING        ( 2): LAMB_WOOL, PEBBLES_XL
+  RANDOM_WALK     (43): PLANETARY_RINGS, SPACE_GRAY, POD_NYLON, PANEL_2X2, PANEL_2X4, PANEL_4X4, MICROCHIP_RECTANGLE, POD_POLYESTER, ROBOT_MOPPING, ECLIPSE_CHARCOAL, ASTRO_BLACK, ROBOT_LAUNDRY, MICROCHIP_SQUARE, POD_SUEDE, MICROCHIP_OVAL, ROBOT_VACUUMING, MICROCHIP_CIRCLE, SHAKE_GARLIC, PEBBLES_S, POD_COTTON, PANEL_1X2, PANEL_1X4, PEBBLES_XS, MORNING_BREATH, GRAPHITE_MIST, VISOR_YELLOW, MICROCHIP_TRIANGLE, VISOR_AMBER, PEBBLES_L, PEBBLES_M, SNACKPACK_VANILLA, VISOR_ORANGE, SNACKPACK_PISTACHIO, SHAKE_CHOCOLATE, SNACKPACK_STRAWBERRY, SNACKPACK_RASPBERRY, SOLAR_WINDS, ROBOT_DISHES, SOLAR_FLAMES, SHAKE_MINT, VISOR_RED, DARK_MATTER, VISOR_MAGENTA
+
+── 8. TOP MEAN-REVERSION SIGNALS ────────────────────────────────────
+  Product                                        ACF1     CI95  Regime
+  ROBOT_IRONING                               -0.1281   0.0620  MEAN_REVERT ← scalp this
+  OXYGEN_SHAKE_EVENING_BREATH                 -0.1277   0.0620  MEAN_REVERT ← scalp this
+  SNACKPACK_CHOCOLATE                         -0.0836   0.0620  MEAN_REVERT ← scalp this
+  GALAXY_SOUNDS_BLACK_HOLES                   -0.0668   0.0620  MEAN_REVERT ← scalp this
+  TRANSLATOR_VOID_BLUE                        -0.0640   0.0620  MEAN_REVERT ← scalp this
+
+── 9. RECOMMENDED CODE CHANGES ──────────────────────────────────────
+  Based on this report, tell Claude:
+  • Remove ROBOT_IRONING from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_CHOCOLATE from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_VANILLA from ALL_SYMBOLS in trader.py
+  • Remove UV_VISOR_ORANGE from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_PISTACHIO from ALL_SYMBOLS in trader.py
+  • Remove OXYGEN_SHAKE_CHOCOLATE from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_STRAWBERRY from ALL_SYMBOLS in trader.py
+  • Remove SNACKPACK_RASPBERRY from ALL_SYMBOLS in trader.py
+  • Remove GALAXY_SOUNDS_SOLAR_WINDS from ALL_SYMBOLS in trader.py
+  • Remove ROBOT_DISHES from ALL_SYMBOLS in trader.py
+  • Remove GALAXY_SOUNDS_SOLAR_FLAMES from ALL_SYMBOLS in trader.py
+  • Remove OXYGEN_SHAKE_MINT from ALL_SYMBOLS in trader.py
+  • Remove UV_VISOR_RED from ALL_SYMBOLS in trader.py
+  • Remove GALAXY_SOUNDS_DARK_MATTER from ALL_SYMBOLS in trader.py
+  • Remove UV_VISOR_MAGENTA from ALL_SYMBOLS in trader.py
+
+── 10. FILES IN THIS REPORT ─────────────────────────────────────────
+  01_pnl_curves.png
+  02_risk_dashboard.png
+  03_cherry_pick_ranking.png
+  04_group_attribution.png
+  05_return_acf.png
+  06_rolling_sharpe.png
+  07_drawdown_curves.png
+  08_position_utilisation.png
+  09_return_distributions.png
+  10_portfolio_risk.png
+  11_spread_analysis.png
+  12_correlation_heatmap.png
+  13_execution_diagnosis.png
+  14_directional_bias.png
+  r5_summary.json
+
+════════════════════════════════════════════════════════════════════════
